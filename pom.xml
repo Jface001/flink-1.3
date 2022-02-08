@@ -10,10 +10,10 @@
 
     <!-- 指定仓库位置，依次为aliyun、apache和cloudera仓库 -->
     <repositories>
-        <!--        <repository>-->
-        <!--            <id>aliyun</id>-->
-        <!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
-        <!--        </repository>-->
+                <repository>
+                    <id>aliyun</id>
+                    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+                </repository>
         <repository>
             <id>apache</id>
             <url>https://repository.apache.org/content/repositories/snapshots/</url>
