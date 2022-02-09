@@ -11,8 +11,9 @@ import java.util.Arrays;
 /**
  * @author jface
  * @create 2022/2/8 22:51
- * @desc 使用env.fromCollection()，这种方式也支持Tuple，自定义对象等复合形式。
- *  todo：fromCollection不可以支持多个并行度
+ * @desc
+ * 使用env.fromCollection()，这种方式也支持Tuple，自定义对象等复合形式。
+ *  fromCollection不可以支持多个并行度
  */
 public class FromCollectionDemo {
     public static void main(String[] args) throws Exception {
